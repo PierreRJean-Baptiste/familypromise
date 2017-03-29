@@ -5,29 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<style type="text/css">
-		.cola, .colb, .colc{border:1px #000 solid;}
-        
-		.cola{background: #aaa;}
-        
-		.colb{background: #bbb;}
-        
-		.colc{background: #ccc;}
-        
-		.carousel-inner>.item>img{
-			margin:0px auto;
-			height:200px;
-			width:auto;
-		}
-
-		p{font-size: 30px;}
-	
-	
-		@media screen and (max-width: 900px){
-
-			p {font-size: 12px;}
-		}
-
 	</style>
 
 </head>
@@ -43,20 +20,26 @@
 
 
 	<div id="topper" class="add-color add-image remove-treatment" style="background-image: url(http://familypromise.org/wp-content/uploads/2015/02/blue-banner-11.jpg);">
-		<h2>Who We Are</h2>
+		<div class="row">
+        <div class="col-md-4">
+	<h2>Who We Are</h2>
 	</div>
 	<div>
 		<p>When Family Promise began, it was a local response to problem in Union County, New Jersey. Twenty-eight years later, we are a national movement involving more than 180,000 volunteers and serving more than 50,000 people yearly.
 		</p>
-	</div>                                         	<div>
-		<img src="img/familypromiseimage1.jpg">
+	</div> 
+	    <div>
+	    	<img src="img/familypromiseimage1.jpg">
 	</div>
 	<div>
-		<p>But the core of what we do is still local—partnerships within a city or county changing lives. Family Promise makes that possible by developing and supporting Affiliates that address family homelessness right in their own community.
+		<div class="row">
+        <div class="col-md-4">
+			<p>But the core of what we do is still local—partnerships within a city or county changing lives. Family Promise makes that possible by developing and supporting Affiliates that address family homelessness right in their own community.
 		</p>
 	</div>
 	<div>
-		<img src="img/familypromise2.jpg">
+			
+				<img src="img/familypromise2.jpg">
 	</div>
 	<div>
 		<a class="btn-base-solid btn-donate" href="http://familypromise.org/donate/">Donate to support family promise</a>
@@ -87,6 +70,7 @@
 				
 		</div>
 		<div class="share">
+			
 				<p>Help share the promise  </p>
 		</div>
 		<footer>
@@ -97,7 +81,8 @@
 			</div>
 			
 		</footer>	
-
+	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 
 </body>
