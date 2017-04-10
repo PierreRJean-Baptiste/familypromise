@@ -1,0 +1,81 @@
+*{
+	 font-family: 'helvetica';
+          color : green;
+    box-sizing  : border-box;
+    margin      : 0px ;
+}
+
+footer{
+	text-align: center;
+	background-color: red;
+
+}
+.knowledge{
+	border: 1px solid #000;
+	background-color: blue;
+	color: #fff;
+
+
+}
+.Impact{
+	border: 1px solid #000 ;
+	background-color: yellow;
+  
+}
+.hope{
+	font-style: italic;
+	text-decoration: underline;
+}
+.fight{
+	font-style: italic;
+	text-decoration: underline;
+	color:orange;
+}
+.experience > p {
+	font-style: italic;
+	text-decoration: underline;
+	color:orange;
+	border: 1px solid #000 ;
+}
+/*.response {
+	font-style: italic;
+	text-decoration: underline;
+	color: pink;
+	border: 1px solid #000 ;
+	background-color: yellow;
+  
+}*/
+.core > p {
+	font-style: italic;
+	text-decoration: underline;
+	color: orange;
+	border: 1px solid #000 ;
+	background-color: red;
+}
+.help {
+	font-weight: bold;
+	text-decoration: underline;
+	color:#ffffff;
+}
+.contribution{
+	font-style: italic;
+	text-decoration: underline;
+}
+.amount{
+	font-weight: normal;
+	color:blue;
+	font-weight: bold;
+}
+.join{
+	border: 1px solid #000 ;
+	background-color: yellow;
+}
+.payment{
+	border: 1px solid #000 ;
+	background-color:blue;
+
+}
+.donor{
+	border: 1px solid #000 ;
+	background-color: green;
+}

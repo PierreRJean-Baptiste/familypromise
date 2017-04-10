@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* widget fixes */
+
+.fb_iframe_widget {
+	line-height: 12px;
+} 
+#_atssh {
+	display: none;
+}
+iframe[name="google_conversion_frame"] {
+	position:fixed;
+}
+
+/* images: captions and alignment */
+
+img.alignleft, .wp-caption.alignleft {
+	float:left;
+}
+img.alignright, .wp-caption.alignright {
+	float:left;
+}
+img.aligncenter, .wp-caption.aligncenter {
+	text-align: center;
+	margin: 10px auto;
+	display: block;
+}
+.wp-caption {
+	width:auto !important;	
+}
+
+.wp-caption.alignleft img, .wp-caption.alignright  img {
+	float:none;
+	margin-bottom:5px;
+}

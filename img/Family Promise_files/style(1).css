@@ -1,0 +1,74 @@
+/*
+Theme Name: Wide Eye Creative
+Theme URI: http://www.wideeyecreative.com
+Author: Wide Eye Creative
+Author URI: http://www.wideeyecreative.com
+Description: Custom Wide Eye Creative Theme for WordPress
+Version: 1.0
+*/
+
+#site-header {
+  z-index: 999999;
+}
+.impact-item:hover{
+	transform: scale(1);
+}
+
+#dafdirectdiv{
+	width: 160px !important;
+}
+#footer-charity-navigator{
+	display: block;
+	text-align: center;
+	margin: 30px auto;
+	width: 100%;
+}
+#footer-charity-navigator img{
+	width: 100%;
+	max-width: 300px;
+}
+#site-header .top .social a.instagram {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1405px) {
+  #site-header .bottom nav ul li a {
+    padding: 0 30px;
+	font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1275px) {
+  #site-header .bottom nav ul li a {
+    padding: 0 26px;
+	font-size: 16.75px;
+	letter-spacing: .015em;
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  #site-header .bottom nav ul li a {
+    padding: 0 22px;
+	font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  #site-header .bottom nav ul li.home {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  #site-header .bottom nav ul li a {
+    padding: 0 17px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 875px) {
+  #site-header .bottom nav ul li a {
+    padding: 0 12px;
+    font-size: 13px;
+  }
+}
